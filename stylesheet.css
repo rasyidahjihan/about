@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(243, 170, 220);
+    font-family: Poppins;
+  }
+  
+  .myName {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    align-items: center;
+    justify-content: baseline;
+  }
+  
+  .myName h1 {
+    color: rgb(167, 56, 56);
+    letter-spacing: 2px;
+    text-align: center;
+    text-decoration: underline;
+    /*text-transform: lowercase;*/
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 700;
+  }
+  
+  .myName img {
+    border-radius: 50%; /* Atur border-radius ke 50% */
+  }
+  
+  .myName p {
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    /*text-decoration: line-through;*/
+    text-indent: 62px;
+    font-size: 25px;
+    font-style: oblique;
+    font-weight: 300;
+  }
+  
+  .myName table td {
+    padding: 10px;
+  }
+  
+  .myName button a {
+    background-color: rgb(59, 59, 97);
+    padding: 10px;
+    width: 200px;
+    margin: 10px 0 10px 0;
+    color: #ffff;
+    font-weight: bold;
+    border: none;
+    font-size: 30px;
+  }
+  
+  .myName button a:hover {
+    background-color: rgb(123, 199, 250);
+  }
+  
+  .myName button a:active {
+    background-color: brown;
+  }
+  
+  .myName button a:visited {
+    background-color: rgb(112, 5, 23);
+  }
